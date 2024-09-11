@@ -1,3 +1,4 @@
+# BEHAVIOURAL DESIGN PATTERN, WHEN SUBJECT CHANGES ITS STATE, OBSERVERS NEEDS TO GET NOTIFIED
 from abc import ABC, abstractmethod
 class WeatherStation:
     def __init__(self):

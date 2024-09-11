@@ -1,3 +1,4 @@
+# THERE IS ANOTHER LAYER OF ABSTRACTION AS COMPARED TO FACTORY METHOD
 from abc import ABC, abstractmethod
 
 class Vehicle(ABC):
