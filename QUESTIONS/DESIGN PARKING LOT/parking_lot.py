@@ -12,7 +12,7 @@ class ParkingLot:
             raise Exception('This is Singleton class, as there can only be one parking lot')
         else:
             self._instance = self
-            self.levels = List[Level] = []
+            self.levels: List[Level] = []
         
     @staticmethod
     def get_instance():
